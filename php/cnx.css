@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+input[type="email"] {
+    /* أنماط الحقل هنا... */
+    border: 1px solid #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="password"] {
+    /* أنماط الحقل هنا... */
+    border: 1px solid #dc3545;
+    padding: 10px;
+    border-radius: 5px;
+}
